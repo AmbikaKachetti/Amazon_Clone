@@ -28,23 +28,35 @@
                 <button>Continue</button>
             </div>
             <div class = "para">
-                <p>By continuing, you agree to Amazon's <span>Conditons of Use</span> and <span>Privacy Notice</span></p>
+                <p>By continuing, you agree to Amazon's <span>Conditions of Use</span> and <span>Privacy Notice</span></p>
             </div>
-            <div class="help-section">
+            <!-- <div class="help-section">
                 <div class = "help">
                     <i class="fa fa-caret-right arrow" aria-hidden="true"></i>
-                    <li class = "help-section-text">
-                    <a href="#">Need Help?</a>
-                    </li>
+                    <span class = "help-section-text">
+                        <a href="#">Need help?</a>
+                        <ul class = "help-section-ulist">
+                            <li><a href="">Forget Password</a></li>
+                            <li><a href="">Other issues with Sign-In</a></li>
+                        </ul>
+                    </span>
+
+                    
                 </div>
-                <ul class = "help-section-ulist">
-                    <li><a href="">Forget Password</a></li>
-                    <li><a href="">Other issues with Sign-In</a></li>
-                </ul>
                 <br>
                 <br>
                 
-            </div>
+            </div> -->
+
+            <details class="help-section-container">
+                <summary class="help-section-text">Need help?</summary>
+                <p class = "help-section-details"> 
+                    <span class = "help-section-text">Forget Password</span> 
+                    <br>
+                    <span class = "help-section-text">Other issues with Sign-In</span>
+                </p>
+            </details>
+
             <div class = "line">
                 <p>__________________________________</p>
             </div>
@@ -69,6 +81,7 @@
         </div>
 
     </div>
+    <!-- Footer Section -->
     <footer>
         <div class = "copy-rights sign-in-page-footer">
             <div class = "conditions conditions-style-login">

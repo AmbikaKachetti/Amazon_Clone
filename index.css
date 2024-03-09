@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
 }
 .header---container{
     background: #4f6581;
@@ -397,17 +398,21 @@
 .para span{
     color: #4242fc;
 }
+
+/* help-section style using div */
+
+/* 
+
 .help{
     display: flex;
     gap: 10px;
 }
 .help-section {
     display: flex;
-    padding-left: 5px;
+    padding: 10px 0px 10px 0px;
     color: #4242fc;
     font-size: 12px;
     text-decoration: none;
-    list-style: none;
 }
 .help i{
     color: black;
@@ -416,23 +421,43 @@
     text-decoration: none;
     color: #4242fc;
 } 
-.help-section p{
-    padding-top:  10px;
-    color: #dfdddd;
-}
-.help-section-ulist{
-    display: none;
-    list-style: none;
-}
 .help-section-ulist li{
-    margin: 8px 0px 0px 15px;
-    visibility: none;
+    list-style: none;
+    margin: 8px 0px 0px 0px;
 }
+
+.help-section-text ul{
+    display: none;
+    flex-direction: column;
+}
+.help-section-text:active{
+    .help-section-text ul {
+        display: flex;
+    }
+}
+
 .help-section-ulist li a{
     padding: 20px 20px 0px 0px;
     text-decoration: none;
     color: #4242fc;
+} 
+
+*/
+.help-section-container{
+    color: #4242fc;
+    font-size: 12px;
 }
+
+.help-section-details{
+    line-height: 20px;
+    padding: 8px 14px;
+}
+
+.help-section-text:hover{
+    color: #b63c0c;
+    text-decoration: underline;
+}
+
 .line{
     display: flex;
     justify-content: center;
