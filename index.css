@@ -16,11 +16,20 @@
 .header--logo{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+}
+.header-image-container{
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-image-container img{
     width: 110px;
     mix-blend-mode: normal;
+}
+.dotin{
+    margin-left: -6px;
 }
 .header--location{
     display: flex;
